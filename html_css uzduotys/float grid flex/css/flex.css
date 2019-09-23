@@ -1,0 +1,77 @@
+/*base style*/
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+html{
+	height: 100%;
+}
+body{
+	background-color: #fafefe;
+}
+/*Headings*/
+h1, h2{
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+h3{
+	text-align: left;
+	margin: 0;
+	padding: 0;
+}
+/*Links*/
+a{
+	text-decoration: none;
+}
+/*Paragraph*/
+p{
+	font-size: 0.9em;
+	line-height: 0.9;
+}
+/*Images*/
+img{
+	border-style: none;
+	max-width: 100%;/*padaro foto kad neiseitu is bloko ribu*/
+}
+/*Lists*/
+ul{
+	list-style: none;
+}
+.conteiner{
+	width: 80%;
+  min-width: 300px;
+	margin: 0 auto;
+  display:flex;
+  flex-direction: column;
+}
+header, footer{
+	background-color: tomato;
+  flex: 1 0 0;
+}
+main{
+	background-color: #e1e6e6;
+  flex:5 0 0;
+  display: flex;
+  flex-direction: row;
+}
+.mainSectionWrapper{
+  flex: 1 0 0;
+  display:flex;
+  flex-direction: row;
+}
+article{
+  flex:1 0 0;
+}
+nav{
+	background-color: #7d8080;
+  flex:1 0 0;
+}
+aside{
+	background-color: #7d8080;
+  flex:1 0 0;
+}
+footer p{
+  text-align: center;
+}

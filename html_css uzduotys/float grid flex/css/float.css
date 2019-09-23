@@ -1,0 +1,77 @@
+/*base style*/
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+html{
+	height: 100%;
+}
+body{
+	background-color: lightgreen; 
+}
+/*Headings*/
+h1, h2, h3{
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+/*Links*/
+a{
+	text-decoration: none;
+}
+
+/*Paragraph*/
+p{
+	font-size: 1.25em;
+	line-height: 0.9;
+}
+
+/*Images*/
+img{
+	border-style: none;
+	max-width: 100%;/*padaro foto kad neiseitu is bloko ribu*/
+}
+
+/*Lists*/
+ul{
+	list-style: none;
+}
+
+
+.conteiner{
+	width: 80%;
+	margin: 0 auto;
+}
+header{
+	background-color: red;
+}
+main{
+	background-color: orange;
+	width: 50%;
+	float:left;
+	display:grid;/*css grido naudojimas*/
+	grid-template-columns: 2fr 1fr 1fr;/*padalina konteineri i 3 dalis ir pirma dali dvigubai platesne uz likusias*/
+}
+article{
+	background-color: lightblue;
+}
+nav{
+	background-color: yellow;
+	width: 25%;
+	float:left;
+}
+aside{
+	background-color: tomato;
+	width: 25%;
+	float:left;
+}
+footer{
+	background-color: green;
+}
+.clearFix{
+	content:"";
+	display:block;
+	clear:both;
+}
