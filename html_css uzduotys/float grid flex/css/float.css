@@ -52,7 +52,31 @@ main{
 	width: 50%;
 	float:left;
 	display:grid;/*css grido naudojimas*/
-	grid-template-columns: 2fr 1fr 1fr;/*padalina konteineri i 3 dalis ir pirma dali dvigubai platesne uz likusias*/
+	grid-template-columns: 1fr 1fr 1fr 1fr;/*padalina konteineri i 3 dalis ir pirma dali dvigubai platesne uz likusias*/
+}
+@media (max-width: 768px) {/*telefonui*/
+	main{
+		background-color: orange;
+		width: 100%;
+		display:grid;
+		grid-template-columns: 1fr;
+	}
+}
+@media (min-width: 768px) and (max-width: 992px){/*tabletui*/
+	main{
+		background-color: orange;
+		width: 100%;
+		display:grid;
+		grid-template-columns: 1fr 1fr;
+	}
+}
+@media (min-width: 992px) and (max-width: 1400px){/*mazam desktop*/
+	main{
+		background-color: orange;
+		width: 100%;
+		display:grid;
+		grid-template-columns: 1fr 1fr 1fr;
+	}
 }
 article{
 	background-color: lightblue;
@@ -62,10 +86,46 @@ nav{
 	width: 25%;
 	float:left;
 }
+@media (max-width: 768px) {/*telefonui*/
+	nav{
+		background-color: yellow;
+		width: 100%;
+	}
+}
+@media (min-width: 768px) and (max-width: 992px){/*tabletui*/
+	nav{
+		background-color: yellow;
+		width: 100%;
+	}
+}
+@media (min-width: 992px) and (max-width: 1400px){/*mazam desktop*/
+	nav{
+		background-color: yellow;
+		width: 100%;
+	}
+}
 aside{
 	background-color: tomato;
 	width: 25%;
 	float:left;
+}
+@media (max-width: 768px){/*telefonui*/
+	aside{
+		background-color: tomato;
+		width: 100%;
+	}
+}
+@media (min-width: 768px) and (max-width: 992px){/*tabletui*/
+	aside{
+		background-color: tomato;
+		width: 100%;
+	}
+}
+@media (min-width: 992px) and (max-width: 1400px){/*mazam desktop*/
+	aside{
+		background-color: tomato;
+		width: 100%;
+	}
 }
 footer{
 	background-color: green;
