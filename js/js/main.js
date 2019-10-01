@@ -222,3 +222,5 @@ for(let objektoElementas in knygos){
 }
 
 */
+
+//labas
