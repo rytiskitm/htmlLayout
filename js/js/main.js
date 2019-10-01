@@ -223,4 +223,4 @@ for(let objektoElementas in knygos){
 
 */
 
-//labas
+//labas diena
