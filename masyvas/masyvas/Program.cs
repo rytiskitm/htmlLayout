@@ -8,10 +8,10 @@ namespace masyvas
 {
     class Program
     {
+        //public static int[] unique;
         static void Main(string[] args)
         {
             int[] numbers = {1,1,2,3,6,8,99,6,6,6,3,3};
-            int[] unique;
             int[] dontRepeat = numbers.Distinct().ToArray();
 
             Console.WriteLine("Pradinis masyvas");
@@ -19,14 +19,22 @@ namespace masyvas
             
             Console.WriteLine("Nesikartojantys elementai");
             Console.WriteLine(string.Join(" ", dontRepeat));
-            /*
-            Console.WriteLine("Unikalus elementai ");
-            for (int i = 0; i < numbers.Length; i++)
-            {
-                Console.WriteLine(numbers[i]);
-            }
-            */
+
+            uniqueArray(numbers);
+
             Console.ReadLine();
+        }
+
+        static void uniqueArray(int[] array)
+        {
+            //int[] unique = new int[array.Length];
+            int k;
+            Console.WriteLine("Unikalus elementai ");
+            for (int i = 0; i < array.Length; i++)
+            {
+
+            }
+            //Console.WriteLine(string.Join(" ", unique));
         }
     }
 }

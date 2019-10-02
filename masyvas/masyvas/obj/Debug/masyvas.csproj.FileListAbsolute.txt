@@ -12,3 +12,10 @@ C:\Users\moksleivis\Desktop\rytis\programavimo pagrindai\masyvas\masyvas\obj\Deb
 C:\Users\moksleivis\Desktop\rytis\programavimo pagrindai\masyvas\masyvas\obj\Debug\masyvas.csproj.CoreCompileInputs.cache
 C:\Users\moksleivis\Desktop\rytis\programavimo pagrindai\masyvas\masyvas\obj\Debug\masyvas.exe
 C:\Users\moksleivis\Desktop\rytis\programavimo pagrindai\masyvas\masyvas\obj\Debug\masyvas.pdb
+C:\Users\rytis\Desktop\gitRepo\masyvas\masyvas\bin\Debug\masyvas.exe.config
+C:\Users\rytis\Desktop\gitRepo\masyvas\masyvas\bin\Debug\masyvas.exe
+C:\Users\rytis\Desktop\gitRepo\masyvas\masyvas\bin\Debug\masyvas.pdb
+C:\Users\rytis\Desktop\gitRepo\masyvas\masyvas\obj\Debug\masyvas.csprojAssemblyReference.cache
+C:\Users\rytis\Desktop\gitRepo\masyvas\masyvas\obj\Debug\masyvas.csproj.CoreCompileInputs.cache
+C:\Users\rytis\Desktop\gitRepo\masyvas\masyvas\obj\Debug\masyvas.exe
+C:\Users\rytis\Desktop\gitRepo\masyvas\masyvas\obj\Debug\masyvas.pdb
