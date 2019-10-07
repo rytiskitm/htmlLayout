@@ -94,14 +94,16 @@ p[class~="text-muted"] {
 #what-we-offer .jumbotron .bandau:hover h1 {
   color: #00a99d;
 }
-#company-facts.jumbotron{
-  background: transparent!important;
+#company-facts .jumbotron{
+  background: transparent !important;
 }
 #company-facts .jumbotron h1{
   font-weight: 500;
   font-size: 3.4rem;
   font-style: italic;
+  display: inline-block;  
 }
+
 
 .inbetween-icon
 {
@@ -143,7 +145,7 @@ p[class~="text-muted"] {
   display: none;
 }
 .photo-gallery:hover #second-photo{
-  display: block;
+  display: inline-block;
 }
 
 
