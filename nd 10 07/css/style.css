@@ -94,9 +94,13 @@ p[class~="text-muted"] {
 #what-we-offer .jumbotron .bandau:hover h1 {
   color: #00a99d;
 }
-#sample-works .jumbotron{
-  background: #8a8a8a !important;
-  color: #3521e9 !important;
+#company-facts.jumbotron{
+  background: transparent!important;
+}
+#company-facts .jumbotron h1{
+  font-weight: 500;
+  font-size: 3.4rem;
+  font-style: italic;
 }
 
 .inbetween-icon
@@ -126,6 +130,22 @@ p[class~="text-muted"] {
       height: 120px;
       border: 3px solid #00a99d !important;
 }
+.photo-gallery{
+  padding-left: 0;
+  padding-right: 0;
+  padding: 1px;
+}
+
+.photo-gallery:hover #first-photo{
+  display: none;
+}
+.photo-gallery #second-photo{
+  display: none;
+}
+.photo-gallery:hover #second-photo{
+  display: block;
+}
+
 
 
 
