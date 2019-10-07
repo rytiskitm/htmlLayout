@@ -1,0 +1,146 @@
+/*basic css parameters*/
+html {
+  font-family: 'Raleway', sans-serif !important;
+  font-size: 14px;
+}
+body{
+    background-color: #f9f9f9 !important;
+}
+h1{
+  font-weight: 700;
+  font-size: 3.4rem;
+}
+
+h2{
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+
+p {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.7em;
+}
+
+p[class~="text-muted"] {
+  font-size: 0.85rem;
+}
+
+.line-height-normalize{
+  margin-bottom: 0;
+}
+.text-primary {
+  color: #00a99d !important;
+}
+
+.text-white {
+  color: #f9f9f9 !important;
+}
+
+.text-light h2,
+.text-light h3 {
+  color: #f9f9f9 !important;
+}
+
+.text-light p {
+  color: #7a7a7a !important;
+}
+
+.text-dark h2,
+.text-dark h3 {
+  color: #383838 !important;
+}
+
+.text-dark p {
+  color: #7a7a7a !important;
+}
+.text-dimm {
+  color: #cccccc !important;
+}
+.header-liquid-width{
+  background: #8a8a8a !important;
+  /*
+  background: url('https://source.unsplash.com/twukN12EN7c/1920x1080') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  */
+}
+.dark-liquid-width{
+  background: #383838;
+}
+.green-liquid-width{
+	background: #00a99d;
+}
+.padding-to-top{
+  padding-top: 8rem !important;
+}
+.padding-to-bottom{
+  padding-bottom: 8rem !important;
+}
+.link :hover{
+  background: #00a99d;
+  color:#f9f9f9!important;
+}
+#what-we-offer .jumbotron{
+  background: transparent!important;
+}
+#what-we-offer .jumbotron .bandau:hover h1 {
+  color: #00a99d;
+}
+#sample-works .jumbotron{
+  background: #8a8a8a !important;
+  color: #3521e9 !important;
+}
+
+.inbetween-icon
+{
+	display: block;
+	position: absolute;
+	left: 50%;
+	transform: translateY(-50%) translateX(-50%);
+}
+/*pasidaryt reikia veliau
+.btn,
+.btn:hover,
+.btn:active,
+.btn:visited,
+.btn:focus {
+    background-color: transparent!important;
+    border-color: #8064A2!important;
+    color:#555!important;
+}
+*/
+.figure{
+  height:100%
+}
+
+.test-circle {
+      width: 120px;
+      height: 120px;
+      border: 3px solid #00a99d !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
