@@ -18,7 +18,7 @@ namespace masyvas
             Console.WriteLine(string.Join(" ", numbers));
             
             Console.WriteLine("Nesikartojantys elementai");
-            Console.WriteLine(string.Join(" ", dontRepeat));
+            Console.WriteLine(string.Join(" ", numbers));
 
             uniqueArray(numbers);
 
